@@ -1,0 +1,75 @@
+<!-- <h1>Avengers</h1>
+<h2>Iron Man</h2>
+<p>Also goes by the name <b>Tony Stark</b></p>
+<h2>Captain America</h2>
+<p>Also goes by the name <b>Steve Rogers</b></p>
+<h2>Hulk</h2>
+<p>Also goes by the name <b>Bruce Banner</b></p> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayGround</title>
+  </head>
+  <body>
+    <form action="server">
+      <!-- RadioBox -->
+      <div>
+        <input type="radio" id="apple" name="fruits" value="apple" />
+        <label for="apple">Apple</label>
+        <input type="radio" id="mango" name="fruits" value="mango" />
+        <label for="mango">mango</label>
+        <input type="radio" id="orange" name="fruits" value="orange" />
+        <label for="orange">orange</label>
+      </div>
+      <!-- CheckBox -->
+      <div>
+        <input type="checkbox" id="Maths" name="Sub" value="Maths" />
+        <label for="Maths">Maths</label>
+        <input type="checkbox" id="CS" name="Sub" value="CS" />
+        <label for="CS">CS</label>
+        <input type="checkbox" id="Eng" name="Sub" value="Eng" />
+        <label for="Eng">Eng</label>
+      </div>
+      <!-- drop down -->
+      <div>
+        <label for="Profession">Select Profession</label>
+        <select id="Profession" name="prof">
+          <option value="Select">Select One</option>
+          <option value="Student">Student</option>
+          <!-- <option value="Student" selected>Student</option> -->
+          <option value="SDE">Software Developer</option>
+        </select>
+      </div>
+      <!-- Range -->
+      <div>
+        <label for="price">Select Price</label>
+        <input type="range" min="10" max="110" id="price" name="priceTag" />
+        <!-- steps means increase by that steps , value show the defaut value of of range in website-->
+        <!-- <input
+          type="range"
+          min="10"
+          max="110"
+          id="price"
+          name="priceTag"
+          step="5"
+          value="70"
+        /> -->
+      </div>
+      <!-- Text Area -->
+      <!-- default text area is of 2 rows 10 col -->
+      <div>
+        <label for="feedback">Give Feedback</label>
+        <textarea
+          id="feedback"
+          placeholder="Enter Here"
+          name="text_area"
+          rows="5"
+          cols="15"
+        ></textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
