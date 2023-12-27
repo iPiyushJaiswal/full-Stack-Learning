@@ -42,7 +42,7 @@ nav > ul {
   background-color: blueviolet;
 }
 
-input[type='text'] {
+/* input[type='text'] {
   color: blue;
 }
 input[type='password'] {
@@ -50,4 +50,26 @@ input[type='password'] {
 }
 input[type] {
   color: darkred;
+}
+button:hover {
+  text-decoration: line-through;
+}
+button:active {
+  font-size: large;
+}
+input[type='radio']:checked + label {
+  color: red;
+}
+.post:nth-of-type(2n) {
+  background-color: black;
+}
+
+div:nth-of-type(2n) {
+  font-size: small;
+} */
+h1::first-letter {
+  color: black;
+}
+p::selection {
+  background-color: chartreuse;
 }
