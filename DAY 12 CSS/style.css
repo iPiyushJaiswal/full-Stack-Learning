@@ -1,0 +1,21 @@
+div {
+  height: 200px;
+  width: 500px;
+  background-color: aqua;
+  border-color: black;
+  border-width: 5px;
+  border-style: double;
+  padding: 20px;
+}
+h1 {
+  border: 5px dotted green;
+  border-bottom: 10px solid red;
+  border-radius: 50px;
+  border-top-right-radius: 100px;
+}
+button {
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: blanchedalmond;
+}
