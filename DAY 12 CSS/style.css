@@ -6,6 +6,7 @@ div {
   border-width: 5px;
   border-style: double;
   padding: 20px;
+  margin: 5px;
 }
 h1 {
   border: 5px dotted green;
