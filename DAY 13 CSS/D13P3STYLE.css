@@ -1,0 +1,46 @@
+div {
+  height: 20px;
+  width: 250px;
+  background-color: red;
+  text-align: center;
+  margin: 50px;
+}
+
+#one {
+  transform: rotate(45deg);
+}
+#two {
+  transform: scale(1.5);
+  background-color: aqua;
+}
+#three {
+  transform: scale(2, 0.5);
+  background-color: beige;
+}
+#four {
+  transform: translate(400px, 50px);
+}
+#five {
+  transform: skew(-45deg);
+}
+#six {
+  transform: kews(90deg);
+}
+#seven {
+  background-color: brown;
+  transform: rotate(30deg) scale(1.5) translate(40px, 50px) skew(-45deg);
+}
+#eight {
+  height: 400px;
+  width: 500px;
+  margin-top: 300px;
+  text-align: center;
+  box-shadow: 20px 35px 10px black;
+}
+
+#bgimg1 {
+  height: 400px;
+  width: 300px;
+  background-image: url('bgimg.JPG');
+  background-size: cover;
+}

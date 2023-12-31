@@ -1,0 +1,23 @@
+#fullAlpha {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.9);
+}
+
+#partialAlpha {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+#fullOpacity {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(255, 0, 0);
+  opacity: 0.9;
+}
+#partialOpacity {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(255, 0, 0);
+  opacity: 0;
+}
