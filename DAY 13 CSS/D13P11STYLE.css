@@ -1,0 +1,39 @@
+#inner {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+}
+#eye1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+#eye2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+#mouth {
+  height: 30px;
+  width: 100px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: brown;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+}
